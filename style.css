@@ -34,7 +34,7 @@
 }
 
 /* box-2 location */
-.add-icon{
+.add-icon {
     display: flex;
     align-items: center;
 }
@@ -53,7 +53,7 @@
 
 /* box 3 search */
 
-.nav-search{
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
@@ -62,7 +62,7 @@
     border-radius: 4px;
 }
 
-.search-select{
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -71,13 +71,13 @@
     border: none;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon{
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -89,35 +89,35 @@
     color: #0f1111;
 }
 
-.nav-search:hover{
+.nav-search:hover {
     border: 2px solid orange;
 }
 
 /* box - 4 account */
 
-span{
+span {
     font-size: 0.7rem;
 }
 
-.nav-second{
-    font-size: 0.85rem ;
+.nav-second {
+    font-size: 0.85rem;
     font-weight: 700;
 }
 
 /* box 5 Cart*/
 
-.nav-cart i{
+.nav-cart i {
     font-size: 28px;
 }
 
-.nav-cart{
+.nav-cart {
     font-size: 0.85rem;
-    font-weight: 700 ;
+    font-weight: 700;
 }
 
 /* PANEL */
 
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -126,24 +126,24 @@ span{
     justify-content: space-evenly;
 }
 
-.panel-option p{
+.panel-option p {
     display: inline;
     margin-left: 10px;
 }
 
-.panel-option{
+.panel-option {
     width: 70%;
     font-size: 0.85rem;
 }
 
-.panel-deals{
+.panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
 }
 
 /* hero section */
 
-.hero-section{
+.hero-section {
     background-image: url(./img/hero_img.jpg);
     height: 400px;
     background-size: cover;
@@ -152,27 +152,52 @@ span{
     align-items: flex-end;
 }
 
-.hero-msg{
-    background-color: white ;
+.hero-msg {
+    background-color: white;
     color: black;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;  
-    font-size: 0.85rem;  
+    justify-content: center;
+    font-size: 0.85rem;
     width: 80%;
     margin-bottom: 25px;
 }
 
-.hero-msg a{
+.hero-msg a {
     color: #007185;
 
 }
 
 /*shop section*/
 
-.box{
+.shop-section {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
     border: 2px solid black;
-    height: 100px;
-    
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: white\;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
 }
