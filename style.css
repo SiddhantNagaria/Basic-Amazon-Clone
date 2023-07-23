@@ -174,16 +174,18 @@ span {
 .shop-section {
     margin-top: 5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
 
 .box {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 400px;
     width: 23%;
     padding: 20px 0px 15px;
-    background-color: white\;
+    background-color: white;
+    margin-top: 15px;
 }
 
 .box-img {
